@@ -1,4 +1,140 @@
 body {
-    background-color: #080D1F;
+    background-image: url(flowers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #5F5753;
 }
 
+h1, h2 {
+    font-family: 'Amiri', serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 80px 30px 80px;
+}
+
+#logo {
+    font-size: 22px;
+}
+
+#menu {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    
+}
+
+#menu h3:hover {
+    text-decoration: underline;
+    text-decoration-color: #EEDBD1;
+    text-decoration-thickness: 5px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 10%;
+}
+
+main .image img {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+main h2 {
+    font-size: 55px;
+    margin: 10px 10px 10px 0;
+}
+
+main p {
+    font-family: 'Montserrat', sans-serif;;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+.button-1 {
+  align-items: center;
+  appearance: none;
+  background-color: #F6ECE6;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #5F5753;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 250px;
+  will-change: transform,opacity;
+  z-index: 0;
+  margin-top: 70px;
+}
+
+.button-1:hover {
+  background: #EEDBD1;
+  color: #5F5753;
+}
+
+.button-1:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.button-1:focus {
+  outline: none;
+  border: 2px solid #5F5753;
+}
+
+.button-1:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-1:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.button-1:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-1:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.button-1:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
